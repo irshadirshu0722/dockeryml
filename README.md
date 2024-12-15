@@ -44,3 +44,14 @@ services:
       - .:/app
 volumes:
   postgres_data:
+
+
+
+
+DB_NAME=django_app
+DB_USER=postgres
+DB_PASSWORD=irshad1213
+DB_HOST=localhost
+DB_PORT=5432
+REDIS_URL=redis://localhost:6379/0
+
